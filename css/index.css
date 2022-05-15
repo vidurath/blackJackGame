@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(202, 250, 234);
+}
+
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.title {
+  font-family: "Permanent Marker", cursive;
+  font-size: 3.5rem;
+}
+
+.btn {
+  background-color: aquamarine;
+  padding: 0.5em 1em;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 0.3em;
+}
+
+.play-button {
+  font-size: 1.8rem;
+  color: black;
+  font-weight: bolder;
+  margin-left: 1rem;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: black;
+  color: whitesmoke;
+  border: 2px solid aquamarine;
+}
+
+.content {
+  background-image: url("../images/magician-shuffling-cards-cool-way-spotlight.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid aquamarine;
+  height: 70vh;
+  width: 120vh;
+}
+
+@media screen and (max-width: 800px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .content {
+    height: 90%;
+    width: 95%;
+  }
+}
