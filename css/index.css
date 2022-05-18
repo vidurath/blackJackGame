@@ -54,6 +54,21 @@ body {
   width: 120vh;
 }
 
+.content_rule {
+  border: 10px solid aquamarine;
+  height: 70vh;
+  width: 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 25px;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 800px) {
   .title {
     font-size: 2rem;
